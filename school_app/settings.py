@@ -26,11 +26,12 @@ SECRET_KEY = "__$1ud47e&nyso5h5o3fwnqu4+hfqcply9h$k*h2s34)hn5@nc"
 DEBUG = True
 
 ALLOWED_HOSTS = ['.vercel.app']
+# ALLOWED_HOSTS = ['*']
 
 
 # Application definition
 
-INSTALLED_APPS = [
+INSTALLED_APPS = [ 
     'django.contrib.admin',  
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -45,7 +46,7 @@ INSTALLED_APPS = [
     "apps.finance",
     "apps.result",
 ]
-
+ 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
