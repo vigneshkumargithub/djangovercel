@@ -9,5 +9,5 @@
             "src": "/(.*)",
             "dest": "school_app/wsgi.py"
         }
-    ]
+    ] 
 }
