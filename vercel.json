@@ -6,12 +6,6 @@
             "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
         }
     ],
-    "functions": {
-        "school_app/*.py": {
-            "includeFiles": ["school_app/**/*"],
-            "excludeFiles": ["**/__pycache__/**/*", "**/*.pyc", "tests/**/*", "*.md"]
-        }
-    },
     "routes": [
         {
             "src": "/(.*)",
